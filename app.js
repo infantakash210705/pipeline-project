@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 
 app.get("/", (req,res)=>{
-    res.send("Jenkins Pipeline Project Running")
+    res.send("Jenkins Pipeline Project is Good Way Running")
 })
 
 app.listen(3000, ()=>{
